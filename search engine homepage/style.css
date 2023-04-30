@@ -1,0 +1,119 @@
+/* Define some variables for colors */
+:root {
+    --primary-color: #1a73e8;
+    --secondary-color: #f8f9fa;
+    --tertiary-color: #202124;
+  }
+  
+  /* Set the default font family and size */
+  * {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Remove the default margin and padding */
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  /* Center the header content */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Align the logo and the slogan horizontally */
+  header .container {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Resize the logo */
+  #logo {
+    width: 100px;
+  }
+  
+  /* Add some margin to the slogan */
+  h1 {
+    margin-left: 20px;
+  }
+  
+  /* Style the main section */
+  main {
+    background-color: var(--secondary-color);
+  }
+  
+  /* Style the search form */
+  #search-form {
+    display: flex;
+  }
+  
+  /* Style the search input */
+  #search-input {
+    flex-grow: 1;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  
+  /* Style the search button */
+  #search-button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  
+  /* Add some margin to the search form */
+  #search-form {
+    margin-top: 50px;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: var(--tertiary-color);
+  }
+  
+  /* Style the footer links */
+  #footer-links {
+    list-style-type: none;
+  }
+  
+  /* Remove the default margin and padding from the footer links */
+  #footer-links {
+     margin:0; 
+     padding:0; 
+  }
+  
+  /* Display the footer links horizontally */
+  #footer-links li {
+     display:inline; 
+  }
+  
+  /* Add some margin and padding to the footer links */
+  #footer-links li a {
+     margin-right:20px; 
+     padding:10px; 
+     color:white; 
+     text-decoration:none; 
+  }
+  
+  /* Change the color of the footer links on hover */
+  #footer-links li a:hover {
+     color:#d2e3fc; 
+  }
+  
+  /* Style the disclaimer */
+  #disclaimer {
+     color:white; 
+     font-size:12px; 
+  }
+  
